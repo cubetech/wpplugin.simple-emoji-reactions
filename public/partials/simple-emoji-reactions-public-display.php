@@ -41,7 +41,7 @@
 				<div class="simple-emoji-reactions-inline">
 					<span class="simple-emoji-reactions-count"><?php echo $votes[$key]; ?></span>
 					<span class="simple-emoji-reactions-image"><img data-emoji="<?php echo str_replace( ':', '', $key ); ?>" class="simple-emoji-reactions-img" src="<?php echo plugin_dir_url( dirname( __FILE__ ) ) . '../vendor/emojione/assets/svg/' . $e . '.svg'; ?>" alt="<?php echo $key; ?>"></span>
-					<span class="simple-emoji-reactions-name"><?php echo __( str_replace( ':', '', $key ), 'simple-emoji-reactions' ); ?></span>
+					<span class="simple-emoji-reactions-name"><?php echo ucfirst( __( str_replace( ':', '', $key ), 'simple-emoji-reactions' ) ); ?></span>
 				</div>
 			</div>
 		<?php endforeach; ?>

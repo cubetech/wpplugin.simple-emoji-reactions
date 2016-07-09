@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: cubetech, chrigu99
 Donate link: https://www.cubetech.ch
-Tags: posts, emoji, feels, vote, upvote, plugin, simple, reaction
+Tags: posts, emoji, feels, vote, upvote, plugin, simple, reaction, cubetech
 Requires at least: 3.0.1
 Tested up to: 4.6
 Stable tag: 1.0.0

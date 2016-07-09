@@ -128,6 +128,7 @@ class Simple_Emoji_Reactions_Public {
 	 *
 	 * @since   	1.0.0
 	 * @param      	array    	$emojis       	Emojis to get.
+     * @return 		array						Associative array with emoji file codes
 	 */
 	public function get_emojis( $emojis = array() ) {
 
