@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       Simple Emoji Reactions
  * Plugin URI:        https://github.com/cubetech/wpplugin.simple-emoji-reactions
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       Adding simple emoji reactions to your blog posts.
  * Version:           1.0.0
  * Author:            cubetech GmbH
  * Author URI:        https://www.cubetech.ch
