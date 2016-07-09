@@ -1,0 +1,18 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.simple-emoji-reactions-list { display: table; width: 100%; }
+.simple-emoji-reactions-entry { display: table-cell; text-align: center; }
+.simple-emoji-reactions-inline { text-align: center; overflow: visible; width: 80px; display: inline-block; }
+.simple-emoji-reactions-inline img { width: 50px; height: auto; margin: 10px 10px 3px;  -webkit-transition:all .2s ease-out; -moz-transition:all .2s ease-out; -ms-transition:all .2s ease-out; -o-transition:all .2s ease-out; transition:all .2s ease-out; }
+.simple-emoji-reactions-inline img:hover {   -webkit-transform: translate(0px,-5px) scale(1.1); -moz-transform: translate(0px,-5px) scale(1.1); -ms-transform: translate(0px,-5px) scale(1.1); -o-transform: translate(0px,-5px) scale(1.1); transform:translate(0px,-5px) scale(1.1); cursor: pointer; }
+.simple-emoji-reactions-inline span { display: block; }
+.simple-emoji-reactions-image { min-height: 60px; }
+.simple-emoji-reactions-clearfix { clear: both; float: none; }
+
+@media (max-width: 767px) {
+	.simple-emoji-reactions-entry { width: 50%; float: left; display: inline-block; }
+	.simple-emoji-reactions-container, .simple-emoji-reactions-list { display: block; clear: both; float: none; }
+}
